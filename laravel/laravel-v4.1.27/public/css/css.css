@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font:14px/24px "Microsoft YaHei","微软雅黑"; color:#000; word-wrap:break-word;}
+*{ margin:0; padding:0;}
+a,a:hover{ text-decoration:none;}
+img{ border:medium none; vertical-align:middle;}
+input{ border:medium none; background:none; outline:none; font:1em/normal "Microsoft YaHei","微软雅黑";}
+.btn{ cursor:pointer;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; line-height:0; font-size:0; visibility:hidden;}
+
+/*survey*/
+.wrapper{ width:1024px; margin:0 auto;}
+.header{ height:165px; background:url(../images/header_bd.png) no-repeat;}
+.header img{ margin:11px 27px;}
+.survey_box{ width:814px; margin:-50px 105px 98px; line-height:30px;}
+.survey_box h3{ font-size:24px; color:#4659a6; text-align:center;}
+.thanks,.survey_body{ padding-left:30px;}
+.email{ height:34px; padding:20px 0 22px;}
+.email label{ float:left; line-height:34px; margin-right:8px;}
+.email input{ float:left; width:222px; height:32px; line-height:32px; background-color:#f7f7f7; border:1px solid #dcdcdc; padding:0 10px;}
+.ques_one{ margin-bottom:18px;}
+.ques_one input{ vertical-align:-2px; margin-right:10px; margin-left:33px;}
+.ques_one span{ margin-right:95px;}
+.submit_btn{ text-align:center;  padding-top:40px;}
+.submit_btn .btn{ width:136px; height:36px; background:url(../images/submit_btn.png) no-repeat; color:#fff; font-size:18px;}
+.erromessage {
+				font-size: 18px;
+				color: white;
+			}
+.changeerror {
+				font-size: 18px;
+				color: red;
+			}
