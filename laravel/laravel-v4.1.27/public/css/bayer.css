@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+body{font-size:13px; font-family: sans-serif; color:#000; }
+body,html{padding:0px; margin:0px;}
+
+ul,li{ list-style:none; }
+a{ text-decoration:none; cursor: pointer;}
+a:hover{
+    color:red;
+    font-size: 15px;
+
+}
+.menu ul{ padding-left:20px;}
+.menu ul li{ line-height:25px;}
+.li_style{ font-size:14px; font-weight:bold; padding:2px 0px;}
+.li_style li a{ font-size:12px; font-weight:normal;}
+.first_ul li a{  color:#284E9E;}
+.sitename{padding: 0px 50px;}
+.myset{margin-right:50px;margin-top:20px;}
+.menu{width:12%; margin-left:20px;}
+.table_style table td{ padding:5px;}
+.content h2{ padding-bottom:10px;}
+.a_link{ padding-bottom:10px;}
+.paging{ margin-top:20px;}
+.first_ul{ margin-top:20px;}
+.f_dl{ width:960px; margin:0 auto;}
+.f_top{ background-color:#5075C3; width:960px; height:144px;}
+.f_title{color:#fff; margin-top:23px; padding-left:20px;}
+.f_title span{ font-size:33px; font-family:"微软雅黑"; }
+.f_top p{ font-size:12px; color:#fff; padding:12px 14px 0 17px;}
+.page_center{ margin-top:20px;}
+.input_dl{ width:960px; margin:0 auto; position:relative;}
+.dl_box{ height:300px; border:5px solid #dde7f1; background: url(../images/line_03.png); repeat-x scroll;}
+.input_dl{ margin-top:100px;}
+.input_dl label{ width:100px; text-align:right; display:inline-block; vertical-align:middle; font-size:14px; font-weight:bold;}
+.input_dl input{ border:1px solid #908F8F; height:24px; line-height:24px; padding-left:3px; width:220px; vertical-align:middle;}
+.input_dl div{ margin-bottom:10px; width:960px; text-align:center;}
+.input_dl input.btn_p{ width:97px; border:none; height:25px; background-color:#C4CFE7; cursor:pointer; background:url(../images/two_01.png) no-repeat scroll; width:96px; height:24px; color:#284E9E; font-weight:bold; margin-left:20px; margin-top:10px;}
+.page_footer{ width:961px; margin:0 auto;}
+.hplist {cursor:pointer;}
+.defuse_mark a{background: no-repeat scroll 0 1px transparent;padding-left: 13px;}
+
+    /*弹出框*/
+.btn input{
+    border:medium none;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+}
+.posab{
+    position:absolute;
+}
+.center{
+    text-align:center;
+
+}
+.tanchukuang{
+    width:442px;
+}
+
+
+.tanchukuang .tanchu_body{
+    border-left:1px solid #cfcfcf;
+    border-right:1px solid #cfcfcf;
+    background:#fff;
+    padding-top:20px;
+}
+.tanchukuang .tanchu_top .tanchu_title{
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    padding:10px;
+    float:left;
+}
+
+ .tanchukuang .tanchu_top .tanchu_title a:hover{ background-position:2px -1109px;}
+
+
+.tanchu_btn{ padding-bottom:10px;}
+.tanchukuang .tanchu_neirong{
+    width:338px;
+    font-size:14px;
+    color:#5d5d5d;
+}
+.tanchukuang .tanchu_neirong dl{
+    clear:both;
+    line-height:28px;
+}
+.tanchukuang .tanchu_neirong dt{
+    float:left;
+    width:111px;
+    text-align:right;
+    display:inline-block;
+}
+.tanchukuang .tanchu_neirong dd{
+    float:right;
+    width:211px;
+    color:#000;
+    display:inline-block;
+    text-align:left;
+}
+.tanchukuang .tanchu_neirong dd input{
+    width:210px;
+    height:20px;
+    line-height:20px;
+    border:1px solid #ccc;
+}
+.tanchukuang .tanchu_neirong dd select{
+    width:212px;
+    *width:214px;
+    width:214px\9;
+    height:20px;
+}
+
+.tanchukuang .tanchu_neirong .tanchu_btn span{
+    padding-left:25px;
+}
+
+.gj_more{ margin-top:10px;}
+
+
