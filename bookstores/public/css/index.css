@@ -1,0 +1,92 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #5588a3;
+    font-family: sans-serif;
+}
+label{
+    width: 150px;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+.page-header h1{
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    transform: translate(75%);
+    font-size: 45px;
+    padding: 48px 25px;
+}
+.page-header h1 small{
+    color: #fff;
+    font-size: 48px;
+    border: 1px solid transform ;
+}
+.form-horizontal{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    transform: translate(-75%,50%);
+
+}
+.form-control{
+    background-color: #e7e6fc;
+    border: 2px solid ;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+    text-align:center;
+    transition: 0.55s;
+}
+.form-control:focus{
+    width:250px;
+    background-color: #4eeaf6;
+}
+
+.btn-default{
+    position: absolute;
+    left: -100px;
+    background-color: #e7e6fc;
+    border: 2px solid ;
+    border-radius: 12px;
+    width: 125px;
+    height: 36px;
+    outline: none;
+    text-align:center;
+    transition: 0.55s;
+}
+.col-sm-10{
+    position: relative;
+}
+.btn-default:hover{
+    background-color: #08d9d6;
+}
+
+.page-body{
+    width: 100%;
+    margin: 55px auto;
+    height: 800px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-15%,20%);
+    overflow: hidden;
+}
+.form-group{
+    height: 40px;
+    margin-bottom: 30px;
+}
+.captchaimg{
+    cursor: pointer;
+    position: absolute;
+    left: 75%;
+    top: 0;
+}
