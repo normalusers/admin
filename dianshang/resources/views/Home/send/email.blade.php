@@ -1,0 +1,1 @@
+<a href="http://www.onlineshop.com/activate?id={{$id}}&&token={{$token}}">请点击此处激活用户</a>

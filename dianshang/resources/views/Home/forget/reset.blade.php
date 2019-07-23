@@ -1,0 +1,1 @@
+<a href="http://www.onlineshop.com/doforget?id={{$id}}&token={{$token}}">密码重置</a>
